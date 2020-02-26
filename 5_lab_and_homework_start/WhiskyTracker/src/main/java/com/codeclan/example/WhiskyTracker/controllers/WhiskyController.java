@@ -14,6 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping(value = "/whiskies")
 public class WhiskyController {
+
     @Autowired
     WhiskyRepository whiskyRepository;
 

@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "/distilleries")
 public class DistilleryController {
+
     @Autowired
     DistilleryRepository distilleryRepository;
 
